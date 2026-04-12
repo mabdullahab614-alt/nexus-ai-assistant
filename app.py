@@ -7,7 +7,7 @@ import base64
 import tempfile
 
 # ── API ──────────────────────────────────────────────────────────────────────
-API_KEY = os.environ.get("GROQ_API_KEY", "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")
+API_KEY = os.environ.get("GROQ_API_KEY", "")
 client  = Groq(api_key=API_KEY)
 
 # ── MODELS ───────────────────────────────────────────────────────────────────
