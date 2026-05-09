@@ -1,160 +1,282 @@
-# ⚡ NEXUS AI — Live Intelligence Hub
-
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-4.x-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-Powered-00A67E?style=for-the-badge&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+<!-- Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,40:0891b2,100:164e63&height=220&section=header&text=⚡%20NEXUS%20AI&fontSize=64&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=Live%20Intelligence%20Hub%20·%204%20Models%20·%205%20Personas%20·%20Real-Time%20Web%20Search%20·%20Vision&descAlignY=65&descSize=15&descColor=a5f3fc" width="100%"/>
 
-### A cyberpunk-themed AI assistant with real-time web search, vision, multilingual support, and more.
+<br/>
 
-**[🚀 Try Live Demo](https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant)** &nbsp;·&nbsp; **[📋 LinkedIn Post](https://www.linkedin.com/in/abdullah-javid-b217a2384/)** &nbsp;·&nbsp; **[👨‍💻 Author](#author)**
+<!-- CTA Button -->
+<a href="https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant">
+  <img src="https://img.shields.io/badge/▶%20%20T%20R%20Y%20%20L%20I%20V%20E%20%20N%20O%20W-06b6d4?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=083344" height="52" alt="Try Live"/>
+</a>
+
+<br/><br/>
+
+<!-- Badge Row 1 -->
+<a href="https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant"><img src="https://img.shields.io/badge/Models-4%20LLMs-06B6D4?style=for-the-badge&labelColor=0f172a"/></a>
+&nbsp;
+<a href="https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant"><img src="https://img.shields.io/badge/Web%20Search-Real--Time-22C55E?style=for-the-badge&labelColor=0f172a"/></a>
+&nbsp;
+<a href="https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant"><img src="https://img.shields.io/badge/Personas-5%20Modes-F59E0B?style=for-the-badge&labelColor=0f172a"/></a>
+&nbsp;
+<a href="https://github.com/mabdullahab614-alt/nexus-ai-assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-8B5CF6?style=for-the-badge&labelColor=0f172a"/></a>
+
+<br/><br/>
+
+<!-- Badge Row 2 -->
+<a href="https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant"><img src="https://img.shields.io/badge/Powered%20by-Groq%20API-00A67E?style=for-the-badge&labelColor=0f172a"/></a>
+&nbsp;
+<a href="https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant"><img src="https://img.shields.io/badge/Interface-Gradio-F97316?style=for-the-badge&labelColor=0f172a"/></a>
+&nbsp;
+<a href="https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant"><img src="https://img.shields.io/badge/Languages-10%20Supported-EC4899?style=for-the-badge&labelColor=0f172a"/></a>
+&nbsp;
+<a href="https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant"><img src="https://img.shields.io/badge/Themes-5%20UI%20Styles-3B82F6?style=for-the-badge&labelColor=0f172a"/></a>
 
 </div>
 
 ---
 
-## ✨ Features
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06b6d4,50:0891b2,100:164e63&height=3" width="100%"/>
 
-| Feature | Description |
-|---|---|
-| ⚡ **4 AI Models** | LLaMA 3.3 70B, LLaMA 3.1 8B, Mixtral 8x7B, Gemma 2 9B |
-| 🌐 **Live Web Search** | Real-time answers via Groq Compound Beta |
-| 📁 **Image Analysis** | Upload any image — auto-activates LLaMA 4 Scout vision model |
-| 🌍 **10 Languages** | English, Urdu, Arabic, French, German, Spanish, Chinese, Japanese, Russian, Hindi |
-| 🎨 **5 UI Themes** | Cyberpunk, Ocean Deep, Matrix, Sunset, Sakura |
-| 🎭 **5 AI Personas** | Default Assistant, Expert Researcher, Coding Expert, Creative Writer, Career Coach |
-| 💾 **Save & Load Chats** | Export conversations as `.json` and reload them later |
-| 📋 **Export History** | Download your full chat as a formatted `.txt` file |
-| 🔊 **Text-to-Speech** | Hear the last AI reply read aloud via browser TTS |
-| 🌡️ **Creativity Slider** | Adjust model temperature from 0.1 to 1.5 |
-
----
-
-## 🖼️ Preview
-
-> **Cyberpunk UI** with animated neon grid, glowing buttons, and real-time stats
-
-```
-⚡ NEXUS AI
-▸ LIVE INTELLIGENCE · GROQ POWERED · REAL-TIME WEB ACCESS ◂
-```
-
----
-
-## 🛠️ Tech Stack
-
-- **Language:** Python 3.10+
-- **UI Framework:** Gradio 4.x
-- **LLM Provider:** [Groq API](https://groq.com) (ultra-fast inference)
-- **Models:** LLaMA 3.3 70B · LLaMA 3.1 8B · Mixtral 8x7B · Gemma 2 9B · LLaMA 4 Scout (vision)
-- **Web Search:** Groq Compound Beta (built-in tool use)
-- **Deployment:** Hugging Face Spaces
-
----
-
-## 🚀 Run Locally
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/YOUR_USERNAME/nexus-ai-assistant.git
-cd nexus-ai-assistant
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Set your Groq API key
-```bash
-# Option A: environment variable (recommended)
-export GROQ_API_KEY=your_key_here
-
-# Option B: edit app.py directly (not recommended for production)
-```
-
-Get a free Groq API key at → [console.groq.com](https://console.groq.com)
-
-### 4. Run
-```bash
-python app.py
-```
-
-Open `http://localhost:7860` in your browser.
-
----
-
-## ☁️ Deploy on Hugging Face Spaces
-
-1. Create a new Space at [huggingface.co/new-space](https://huggingface.co/new-space) (select **Gradio** SDK)
-2. Upload `app.py` and `requirements.txt`
-3. Go to **Settings → Variables and Secrets** → add `GROQ_API_KEY`
-4. Your app goes live automatically ✅
-
----
-
-## 📁 Project Structure
-
-```
-nexus-ai-assistant/
-├── app.py              # Main application
-├── requirements.txt    # Python dependencies
-└── README.md           # This file
-```
-
----
-
-## 🤖 Available Models
-
-| Model | Best For | Speed |
-|---|---|---|
-| LLaMA 3.3 70B | General quality, complex tasks | Fast |
-| LLaMA 3.1 8B | Quick replies, simple tasks | Ultra Fast |
-| Mixtral 8x7B | Deep reasoning, analysis | Fast |
-| Gemma 2 9B | Creative writing, storytelling | Fast |
-| LLaMA 4 Scout *(auto)* | Image analysis (vision) | Auto |
-
----
-
-## 🎭 AI Personas
-
-| Persona | Description |
-|---|---|
-| 🤖 Default Assistant | Helpful, smart, friendly — all-rounder |
-| 🔬 Expert Researcher | Deep analysis with structured answers |
-| 💻 Coding Expert | Production-ready code with explanations |
-| ✍️ Creative Writer | Vivid, imaginative storytelling |
-| 🎯 Career Coach | CV, LinkedIn, interview prep |
-
----
-
-## ⚙️ Environment Variables
-
-| Variable | Required | Description |
-|---|---|---|
-| `GROQ_API_KEY` | ✅ Yes | Your Groq API key from [console.groq.com](https://console.groq.com) |
-
----
-
-## 👨‍💻 Author
-
-**Abdullah Javid**
-BS Artificial Intelligence — University of Management and Technology (UMT), Lahore, Pakistan
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdullah_Javid-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/abdullah-javid-b217a2384/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-BUDDDY2894830-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/BUDDDY2894830)
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — feel free to use, modify, and share.
-
----
+<br/>
 
 <div align="center">
-  <sub>Built with ⚡ by Abdullah Javid &nbsp;·&nbsp; UMT Lahore &nbsp;·&nbsp; Powered by Groq</sub>
+
+## ⚡ NEXUS INTELLIGENCE ARCHITECTURE
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║              NEXUS AI — GROQ-POWERED INTELLIGENCE HUB           ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║   USER INPUT (text / image / language / persona)                ║
+║      │                                                           ║
+║      ▼                                                           ║
+║   ┌─────────────────────────────────────────┐                    ║
+║   │         INPUT ROUTER                    │                    ║
+║   │   Image attached? ──► LLaMA 4 Scout    │                    ║
+║   │   Text only?      ──► Selected LLM     │                    ║
+║   │   Apply persona system prompt          │                    ║
+║   │   Apply language instruction           │                    ║
+║   └─────────────────────────────────────────┘                    ║
+║      │                                                           ║
+║      ▼                                                           ║
+║   ┌─────────────────────────────────────────┐                    ║
+║   │         GROQ INFERENCE ENGINE           │                    ║
+║   │                                         │                    ║
+║   │  ┌─────────────────────────────────┐   │                    ║
+║   │  │  MODEL SELECTION                │   │                    ║
+║   │  │  LLaMA 3.3 70B  → Best quality │   │                    ║
+║   │  │  LLaMA 3.1 8B   → Ultra fast   │   │                    ║
+║   │  │  Mixtral 8x7B   → Deep reason  │   │                    ║
+║   │  │  Gemma 2 9B     → Creative     │   │                    ║
+║   │  │  LLaMA 4 Scout  → Vision (auto)│   │                    ║
+║   │  └─────────────────────────────────┘   │                    ║
+║   │                                         │                    ║
+║   │  ┌─────────────────────────────────┐   │                    ║
+║   │  │  TOOL USE (Compound Beta)       │   │                    ║
+║   │  │  Web search triggered when      │   │                    ║
+║   │  │  query needs real-time data     │   │                    ║
+║   │  │  ──► Live internet results      │   │                    ║
+║   │  └─────────────────────────────────┘   │                    ║
+║   └─────────────────────────────────────────┘                    ║
+║      │                                                           ║
+║      ▼                                                           ║
+║   ┌─────────────────────────────────────────┐                    ║
+║   │         RESPONSE LAYER                  │                    ║
+║   │   Stream tokens to Gradio UI           │                    ║
+║   │   Apply active UI theme                │                    ║
+║   │   Optional TTS — read reply aloud      │                    ║
+║   │   Save to session chat history         │                    ║
+║   └─────────────────────────────────────────┘                    ║
+║                                                                  ║
+║   ⚡ Groq inference: fastest LLM API on the planet              ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06b6d4,50:0891b2,100:164e63&height=3" width="100%"/>
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 AI Models
+| Model | Best For | Speed |
+|-------|----------|-------|
+| LLaMA 3.3 70B | Complex tasks | ⚡ Fast |
+| LLaMA 3.1 8B | Quick replies | ⚡⚡ Ultra |
+| Mixtral 8x7B | Deep reasoning | ⚡ Fast |
+| Gemma 2 9B | Creative writing | ⚡ Fast |
+| LLaMA 4 Scout | Vision *(auto)* | ⚡ Auto |
+
+### 🎭 AI Personas
+| Persona | Description |
+|---------|-------------|
+| 🤖 Default | Smart all-rounder |
+| 🔬 Researcher | Deep analysis |
+| 💻 Coding Expert | Production code |
+| ✍️ Creative Writer | Vivid storytelling |
+| 🎯 Career Coach | CV & interview prep |
+
+</td>
+<td width="50%">
+
+### ⚡ Core Capabilities
+- ✅ **Live Web Search** — Groq Compound Beta
+- ✅ **Image Analysis** — LLaMA 4 Scout vision
+- ✅ **10 Languages** — EN, UR, AR, FR, DE, ES, ZH, JP, RU, HI
+- ✅ **Text-to-Speech** — hear replies aloud
+- ✅ **Save & Load Chats** — `.json` export
+- ✅ **Export History** — formatted `.txt` download
+- ✅ **Creativity Slider** — temperature 0.1 → 1.5
+
+### 🎨 UI Themes
+| Theme | Vibe |
+|-------|------|
+| 🌆 Cyberpunk | Neon + dark grid |
+| 🌊 Ocean Deep | Deep blue calm |
+| 🟢 Matrix | Green terminal |
+| 🌅 Sunset | Warm gradients |
+| 🌸 Sakura | Soft pink elegance |
+
+</td>
+</tr>
+</table>
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06b6d4,50:0891b2,100:164e63&height=3" width="100%"/>
+
+## 🚀 Live Demo
+
+<div align="center">
+
+### 🌐 [https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant](https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant)
+
+*Open in browser — no signup, no API key needed on the hosted demo*
+
+</div>
+
+---
+
+## 🛠 Tech Stack
+
+<div align="center">
+
+| | Technology | Purpose |
+|--|-----------|---------|
+| ⚡ | **Groq API** | Ultra-fast LLM inference engine |
+| 🧠 | **LLaMA 3.3 70B / 3.1 8B** | Primary language models |
+| 🔀 | **Mixtral 8x7B** | MoE reasoning model |
+| 👁️ | **LLaMA 4 Scout** | Vision / image analysis (auto) |
+| 🌐 | **Groq Compound Beta** | Built-in real-time web search |
+| 🎛️ | **Gradio 4.x** | Interactive web interface |
+| 🤗 | **Hugging Face Spaces** | Free cloud deployment |
+| 🐍 | **Python 3.10+** | Core language |
+
+</div>
+
+---
+
+## ⚡ Run Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/mabdullahab614-alt/nexus-ai-assistant.git
+cd nexus-ai-assistant
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Set your Groq API key (free at console.groq.com)
+export GROQ_API_KEY=your_key_here   # Linux / Mac
+$env:GROQ_API_KEY="your_key_here"   # Windows PowerShell
+
+# 4. Run
+python app.py
+# → Opens at http://localhost:7860
+```
+
+### ☁️ Deploy on Hugging Face Spaces
+
+```
+1. New Space → select Gradio SDK
+2. Upload app.py + requirements.txt
+3. Settings → Secrets → add GROQ_API_KEY
+4. Live in 60 seconds ✅
+```
+
+> Get a **free** Groq API key at **[console.groq.com](https://console.groq.com)** — no credit card needed.
+
+---
+
+## 📊 Capabilities at a Glance
+
+<div align="center">
+
+| Feature | Value |
+|---------|-------|
+| AI Models | **5** (4 text + 1 vision) |
+| AI Personas | **5** distinct system prompts |
+| UI Themes | **5** fully styled interfaces |
+| Languages | **10** supported |
+| Web Search | **Real-time** via Compound Beta |
+| Image Support | **Any format** → auto vision model |
+| Export Formats | `.json` (chat) + `.txt` (history) |
+| Inference Speed | **Sub-second** via Groq |
+
+</div>
+
+---
+
+## 🏆 Rating
+
+<div align="center">
+
+| Category | Score |
+|----------|-------|
+| AI Model Variety | ⭐⭐⭐⭐⭐ |
+| Real-Time Web Search | ⭐⭐⭐⭐⭐ |
+| Vision Support | ⭐⭐⭐⭐⭐ |
+| UI / Themes | ⭐⭐⭐⭐⭐ |
+| Feature Depth | ⭐⭐⭐⭐⭐ |
+| Deployment | ⭐⭐⭐⭐⭐ |
+| **OVERALL** | **⭐⭐⭐⭐⭐ 10/10** |
+
+</div>
+
+---
+
+## 📜 License
+
+**MIT License** — © 2026 Abdullah Javid
+
+Free to use, modify, and distribute with attribution.
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:06b6d4,50:0891b2,100:164e63&height=3" width="100%"/>
+
+<div align="center">
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-mabdullahab614--alt-181717?style=for-the-badge&logo=github&labelColor=0f172a)](https://github.com/mabdullahab614-alt)
+&nbsp;
+[![Live Demo](https://img.shields.io/badge/⚡%20Try%20NEXUS%20AI-06b6d4?style=for-the-badge&labelColor=0f172a)](https://huggingface.co/spaces/BUDDDY2894830/nexus-ai-assistant)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Abdullah%20Javid-8B5CF6?style=for-the-badge&labelColor=0f172a)](https://portfolio-website-jet-iota-21.vercel.app/)
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:164e63,60:0891b2,100:06b6d4&height=120&section=footer&animation=twinkling" width="100%"/>
+
+**⭐ Star this repo if NEXUS impressed you!**
+
 </div>
